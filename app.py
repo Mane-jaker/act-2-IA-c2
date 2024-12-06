@@ -31,7 +31,7 @@ class PerceptronApp:
         # Dataset selection
         self.dataset_label = tk.Label(master, text="Seleccionar Dataset:")
         self.dataset_label.grid(row=3, column=0)
-        self.dataset_combo = ttk.Combobox(master, values=['c:/Users/angel/Documents/IA/Neurona/Propio/221233_nuevo.xlsx', 'C:/Users/angel/Documents/IA/Neurona/Propio/203140.csv', 'dataset3.xlsx'])
+        self.dataset_combo = ttk.Combobox(master, values=['./221233_nuevo.xlsx', './203140.csv', './213347_221216.csv'])
         self.dataset_combo.grid(row=3, column=1)
 
         # Activation function selection
